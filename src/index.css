@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --baby-pink: #F4C2C2;
+  --rose-gold: #B76E79;
+  --rose-pink: #FF66CC;
+  --soft-white: #FFF0F5;
+  /* LavenderBlush - a pale baby pink */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--soft-white);
+  color: #333;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, var(--rose-gold), var(--rose-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-soft-gradient {
+  background: linear-gradient(135deg, var(--baby-pink) 0%, #FFF0F5 100%);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
