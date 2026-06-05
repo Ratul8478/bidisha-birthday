@@ -115,7 +115,7 @@ const JourneyModal = ({ isOpen, onClose }) => {
                                             "{journeySteps[current].quote}"
                                         </p>
                                         <div className="w-20 h-[1px] bg-rose-gold" />
-                                        <p className="text-rose-gold/80 tracking-widest text-sm uppercase font-bold">
+                                        <p className="text-baby-pink tracking-widest text-sm uppercase font-bold">
                                             Bidisha's Journey • Step {current + 1}
                                         </p>
                                     </motion.div>
