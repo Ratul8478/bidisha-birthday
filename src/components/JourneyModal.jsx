@@ -60,7 +60,7 @@ const JourneyModal = ({ isOpen, onClose }) => {
                         initial={{ scale: 0.9, y: 20, opacity: 0 }}
                         animate={{ scale: 1, y: 0, opacity: 1 }}
                         exit={{ scale: 1.1, opacity: 0 }}
-                        className="relative w-full max-w-4xl bg-rose-gold/20 glass rounded-[2.5rem] overflow-hidden border border-rose-gold/30 shadow-2xl"
+                        className="relative w-full max-w-4xl bg-rose-gold/40 glass rounded-[2.5rem] overflow-hidden border border-rose-gold/30 shadow-2xl"
                     >
                         {/* Close Button */}
                         <button
@@ -99,7 +99,7 @@ const JourneyModal = ({ isOpen, onClose }) => {
                             </div>
 
                             {/* Content Side */}
-                            <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center relative bg-rose-pink/10">
+                            <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center relative bg-rose-gold/90">
                                 <Quote className="w-12 h-12 text-rose-gold/30 mb-6" />
 
                                 <AnimatePresence mode="wait">
